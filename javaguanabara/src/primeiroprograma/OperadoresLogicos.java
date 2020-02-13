@@ -13,10 +13,6 @@ public class OperadoresLogicos {
 		System.out.println(r);
 	
 		
-	/* && e
-	 || ou 
-	 ^ exclusivo
-	 ! não	
-	*/
+	
 	}
 }

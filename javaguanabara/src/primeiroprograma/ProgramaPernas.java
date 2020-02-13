@@ -5,9 +5,9 @@ package primeiroprograma;
 import java.util.Scanner;
 
 public class ProgramaPernas {
-	
+
 	public static void main(String[] args) {
-		
+
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Quantas pernas?");
 		int perna = teclado.nextInt();
@@ -20,10 +20,10 @@ public class ProgramaPernas {
 		case 2:
 			tipo = "Bípede";
 			break;
-		case 3: 
+		case 3:
 			tipo = "Tripé";
 			break;
-		case 4: 
+		case 4:
 			tipo = "Quadrúpide";
 			break;
 		case 6:
@@ -33,7 +33,7 @@ public class ProgramaPernas {
 			tipo = "ET";
 			break;
 		}
-	
+
 		System.out.print(tipo);
 	}
-}	
+}
