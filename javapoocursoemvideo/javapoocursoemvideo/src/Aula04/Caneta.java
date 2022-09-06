@@ -19,8 +19,7 @@ public class Caneta {
 
     // Aqui estão os seus métodos
 
-    public String getModelo()
-    {
+    public String getModelo() {
         return this.modelo;
     }
     public void setModelo(String m) {

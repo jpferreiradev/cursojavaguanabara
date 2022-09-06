@@ -12,8 +12,13 @@ public class ContaBanco {
 
          // Esses são os métodos da conta
 
+        public String getnumConta(){
 
+        }
 
+        public void setnumConta(){
+
+        }
 
 
 
