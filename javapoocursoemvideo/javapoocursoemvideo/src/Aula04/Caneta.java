@@ -26,6 +26,7 @@ public class Caneta {
         this.modelo = m;
     }
     public double getPonta(){
+
         return this.ponta;
     }
 
