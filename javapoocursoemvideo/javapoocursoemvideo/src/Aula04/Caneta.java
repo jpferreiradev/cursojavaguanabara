@@ -49,6 +49,7 @@ public class Caneta {
         System.out.println("Ponta: " + this.getPonta());
         System.out.println("Cor:" + this.cor);
         System.out.println("Tampada: " + this.tampada);
+        //System.out.println("Teste");
 
 
     }
