@@ -6,6 +6,7 @@ public class Caneta {
     private double ponta;
     private boolean tampada;
     private String cor;
+
     // Aqui estão os seus métodos construtores
 
     public Caneta(String m, String c, double p){ // Este é o método construtor
@@ -18,10 +19,11 @@ public class Caneta {
 
     // Aqui estão os seus métodos
 
-    public String getModelo() {
+    public String getModelo()
+    {
         return this.modelo;
     }
-    public void setModelo(String m){
+    public void setModelo(String m) {
         this.modelo = m;
     }
     public double getPonta(){

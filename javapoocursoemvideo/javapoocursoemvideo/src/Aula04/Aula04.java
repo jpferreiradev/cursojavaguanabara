@@ -18,7 +18,7 @@ c1.setModelo("Bic");
 c1.setPonta(0.5);
 //c1.ponta = 0.5; // Acessando diretamente pelo atributo
 
-        System.out.println("Tenho uma caneta " + c1.getModelo() + " de ponta " + c1.getPonta());
+ System.out.println("Tenho uma caneta " + c1.getModelo() + " de ponta " + c1.getPonta());
 
         //System.out.println("O tamanho da ponta é: " + c1.getPonta());
  */
