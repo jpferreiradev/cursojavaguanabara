@@ -1,6 +1,6 @@
 package Aula6;
 
-    public class ControleRemoto {
+    public class ControleRemoto implements Controlador{
 
 
         // Atributos
@@ -10,9 +10,9 @@ package Aula6;
 
         // Métodos especiais
         public ControleRemoto(){
-            volume = 50;
-            ligado = false;
-            tocando = false;
+            this.volume = 50;
+            this.ligado = false;
+            this.tocando = false;
         }
 
         private int getVolume() {
@@ -35,7 +35,79 @@ package Aula6;
             return tocando;
         }
 
-        private void setTocando(boolean t) {
+        private void setTocando(boolean t)   {
             this.tocando = t;
+        }
+
+        // Métodos abstratos, implemtados da inteface Controlador
+        @Override
+        public void ligar() {
+            this.setLigado(true);
+        }
+
+        @Override
+        public void desligar() {
+            this.setLigado(false);
+        }
+
+        @Override
+        public void abrirMenu() {
+            System.out.println("------MENU-----");
+            System.out.println("Está ligado? " + this.getLigado());
+            System.out.println("Está tocando? " + this.getTocando());
+            System.out.print("Volume: " + this.getVolume());
+            for (int i = 0; i <= this.getVolume(); i+= 10){
+                System.out.print("|");
+            }
+            System.out.println("");
+        }
+
+        @Override
+        public void fecharMenu() {
+            System.out.println("Fechando menu....");
+
+        }
+
+        @Override
+        public void maisVolume() {
+            if(this.getLigado()){
+                this.setVolume(this.getVolume() + 5 );
+            }
+
+        }
+
+        @Override
+        public void menusVolume() {
+            if(this.getLigado()){
+                this.setVolume(this.getVolume() - 5);
+            }
+        }
+
+        @Override
+        public void ligarMudo() {
+                if(this.getLigado() && this.getVolume() > 0){
+                    this.setVolume(0);
+                }
+        }
+
+        @Override
+        public void desligarMudo() {
+            if(this.getLigado() && this.getVolume() == 0){
+                this.setVolume(50);
+            }
+        }
+
+        @Override
+        public void play() {
+            if( this.getLigado() && !(this.getTocando())){
+                this.setTocando(true);
+            }
+        }
+
+        @Override
+        public void pause() {
+            if(this.getLigado() && this.getTocando()){
+                this.setTocando(false);
+            }
         }
     }
