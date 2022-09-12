@@ -7,7 +7,7 @@ public class Caneta {
     private boolean tampada;
     private String cor;
 
-    // Aqui estão os seus métodos construtores
+    // Aqui estão os seus métodos e construtores
 
     public Caneta(String m, String c, double p){ // Este é o método construtor
         this.modelo = m;

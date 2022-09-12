@@ -9,6 +9,7 @@ public class Aula06 {
             c.play();
             c.abrirMenu();
             c.fecharMenu();
+
     }
 
 }

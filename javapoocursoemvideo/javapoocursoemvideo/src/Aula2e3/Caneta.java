@@ -1,3 +1,5 @@
+package Aula2e3;
+
 public class Caneta {
     // Cinco atributos
 
