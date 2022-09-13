@@ -15,7 +15,7 @@ public class Lutador {
         private int empate;
 
 
-        // Aqui está o seu construtor e
+        // Aqui está o seu construtor e os métodos especiais
         public Lutador(String no,String na,int id,double al, double pe, int vi,int de,int em){
                 this.setNome(no);
                 this.nacionalidade = na;
@@ -105,20 +105,32 @@ public class Lutador {
 
         // Aqui estão os seus métodos especiais
         public void apresantar(){
-
+                System.out.println("Lutador: " +  getNome());
+                System.out.println("Origem: " + getNacionalidade());
+                System.out.println(getIdade() + " anos");
+                System.out.println(getAltura() + "m de altura");
+                System.out.println("Pesando: " + getPeso() + "Kg");
+                System.out.println("Ganhou: " + getVitoria());
+                System.out.println("Perdeu:" + getDerrota());
+                System.out.println("Empatou: " + getEmpate());
         }
         public void status(){
-
+                System.out.println(getNome());
+                System.out.println("é um peso" + getCategoria());
+                System.out.println(getVitoria() + "vitórias");
+                System.out.println(getDerrota() + "derrotas");
+                System.out.println(getEmpate() + "empates");
         }
         public void ganharLuta(){
+                setVitoria(getVitoria() + 1);
 
         }
         public void perderLuta(){
-
+                setVitoria(getDerrota() + 1);
         }
 
         public void empatarLuta(){
-
+                setEmpate(getEmpate()+ 1);
         }
 
 
