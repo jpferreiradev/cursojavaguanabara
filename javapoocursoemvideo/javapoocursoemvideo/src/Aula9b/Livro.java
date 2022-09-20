@@ -1,6 +1,6 @@
 package Aula9b;
 
-public class Livro extends Pessoa {
+public class Livro implements Publicacao {
 
     private String titulo;
     private String autor;
@@ -55,6 +55,30 @@ public class Livro extends Pessoa {
 
     }
 
+    @Override
+    public void abrir() {
+        
+    }
+
+    @Override
+    public void fechar() {
+
+    }
+
+    @Override
+    public void folhear() {
+
+    }
+
+    @Override
+    public void avançarPag() {
+
+    }
+
+    @Override
+    public void voltarPag() {
+
+    }
 
 
     // Métodos publicos
