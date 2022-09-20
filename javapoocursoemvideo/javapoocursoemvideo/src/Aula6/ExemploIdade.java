@@ -20,7 +20,7 @@ public class ExemploIdade {
         anoPassado = idade.nextInt();
         System.out.println("O ano passado digitado foi: " + anoPassado);
         int conversaoAnoAtualParaIdade = anoAtual - anoPassado;
-        System.out.println("Sua idade atual é:" + conversaoAnoAtualParaIdade + " anos");
+            System.out.println("Sua idade atual é:" + conversaoAnoAtualParaIdade + " anos");
 
     }
 }

@@ -5,10 +5,16 @@ public class Pessoa {
     // Aqui estão os seus atributos
     private String nome;
     private int idade;
-    private boolean sexo;
+    private String sexo;
 
 
     // Métodos especiais e construtor
+
+    public Pessoa(String no,int id,String sx){
+        this.nome = no;
+        this.idade = id;
+        this.sexo = sx;
+    }
 
    public String getNome(){
        return this.nome;
@@ -22,26 +28,21 @@ public class Pessoa {
     public void setIdade(int id){
        this.idade = id;
     }
-    public boolean getSexo(){
+    public String getSexo(){
        return this.sexo;
     }
-    public void setSexo(boolean se){
+    public void setSexo(String se){
        this.sexo = se;
     }
 
 
     public void fazerAniver(){
-
+        //this.idade = this.idade + 1;
+        this.idade++;
    }
-
-
-    // Métodos publicos
-
-
-
-
-
-
-
-
 }
+
+
+// Erros no código
+
+// Errou no tipo do atributo, que é String
