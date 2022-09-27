@@ -6,7 +6,8 @@ public class Funcionario extends Pessoa{
     private boolean trabalhando;
 
     public void mudarTraballho(){
-
+        // Receber o inverso de trabalhando
+        this.trabalhando = ! this.trabalhando;
     }
 
     public String getSetor(){
