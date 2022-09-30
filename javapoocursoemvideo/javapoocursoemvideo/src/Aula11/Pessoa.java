@@ -1,10 +1,10 @@
 package Aula11;
 
-public class Pessoa {
+public abstract class Pessoa {
 
-    private String nome;
-    private int idade;
-    private String genereoSexual;
+    protected String nome;
+    protected int idade;
+    protected String genereoSexual;
 
     public void fazerAni(){
         this.idade++;
@@ -30,4 +30,12 @@ public class Pessoa {
         this.genereoSexual = sexo;
     }
 
+    @Override
+    public String toString() {
+        return "Dados{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", genereoSexual='" + genereoSexual + '\'' +
+                '}';
+    }
 }
