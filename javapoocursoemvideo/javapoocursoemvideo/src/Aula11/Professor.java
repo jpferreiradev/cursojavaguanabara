@@ -6,7 +6,7 @@ public class Professor extends Pessoa {
     private double salario;
 
     public void receberAumento(){
-
+        this.salario++;
     }
 
     public String getEspecialidade(){

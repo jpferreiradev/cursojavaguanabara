@@ -18,5 +18,11 @@ public class Aula11 {
         a1.setGenereoSexual("Masculino");
         a1.pagarMensalidade();
 
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(1112);
+        b1.setNome("JP");
+        b1.setGenereoSexual("M");
+        b1.setBolsa(12.5);
+        b1.pagarMensalidade();
     }
 }

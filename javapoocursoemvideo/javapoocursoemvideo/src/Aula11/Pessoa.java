@@ -6,7 +6,7 @@ public abstract class Pessoa {
     protected int idade;
     protected String genereoSexual;
 
-    public void fazerAni(){
+    public void fazerAniversario(){
         this.idade++;
     }
 

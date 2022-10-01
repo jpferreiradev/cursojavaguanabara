@@ -10,10 +10,11 @@ public class Bolsista extends  Aluno{
 
     @Override
     public void pagarMensalidade() {
-        super.pagarMensalidade();
+        //super.pagarMensalidade(); Aqui ele repete o metodo ainda
         System.out.println( this.nome +" é bolsista! Pagamento facilitado");
+        // Tirar essa dúvida, sobre o @Override...
     }
-// Tirar essa dúvida, sobre o @Override...
+
     public double getBolsa(){
         return this.bolsa;
     }
