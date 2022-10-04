@@ -26,4 +26,11 @@ public class Ave extends Animal {
     public void fazerNinho(){
         System.out.println("Fazendo um ninho");
     }
+
+    public String getCorPena(){
+        return this.corPena;
+    }
+    public void setCorPena(String pena){
+        this.corPena = pena;
+    }
 }

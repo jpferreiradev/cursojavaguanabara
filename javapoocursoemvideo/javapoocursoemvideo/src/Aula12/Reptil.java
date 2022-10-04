@@ -22,4 +22,12 @@ public class Reptil extends Animal{
           System.out.println("Som de réptil");
           //super.emitirSom();
      }
+
+     public String getCorEscama() {
+          return corEscama;
+     }
+
+     public void setCorEscama(String corEscama) {
+          this.corEscama = corEscama;
+     }
 }

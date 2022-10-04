@@ -21,6 +21,14 @@ public class Mamifero extends Animal {
         //super.emitirSom();
         System.out.println("Som de mamífero");
     }
+
+    public String getCorPelo(){
+        return this.corPelo;
+    }
+    public void setCorPelo(String pelo){
+        this.corPelo = pelo;
+    }
+
 }
 
 

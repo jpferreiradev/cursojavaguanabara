@@ -1,20 +1,19 @@
 package Aula12;
 
 public abstract class Animal {
+    // Atributos de animal
+    protected double peso;
+    protected int idade;
+    protected int membros;
 
-    private double peso;
-    private int idade;
-    private int membros;
+    // Métodos de animal
+    public abstract void locomover();
 
-    public void locomover(){
 
-    }
-    public void alimentar(){
+    public abstract void alimentar();
 
-    }
-    public void emitirSom(){
 
-    }
+    public abstract void emitirSom();
 
 
     public double getPeso(){

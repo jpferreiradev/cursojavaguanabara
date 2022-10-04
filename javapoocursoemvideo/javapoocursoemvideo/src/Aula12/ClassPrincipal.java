@@ -9,8 +9,24 @@ public class ClassPrincipal {
         Reptil r = new Reptil();
         Peixe p = new Peixe();
         Ave a = new Ave();
+        Canguru c = new Canguru();
+        Cachorro k = new Cachorro();
+        Cobra j = new Cobra();
+        Tartaruga t = new Tartaruga();
+        Goldfish g = new Goldfish();
+        Arara e = new Arara();
 
-        m.setPeso(85.3);
+        c.locomover();
+        k.locomover();
+        k.emitirSom();
+    }
+
+}
+
+
+/*
+
+m.setPeso(85.3);
         m.setIdade(2);
         m.setMembros(4);
         m.locomover();
@@ -33,6 +49,4 @@ public class ClassPrincipal {
         a.emitirSom();
         a.fazerNinho();
 
-    }
-
-}
+ */

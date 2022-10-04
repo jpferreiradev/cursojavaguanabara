@@ -24,8 +24,14 @@ public class Peixe extends Animal {
 
     // Exemplo de herança para diferença
     public void soltarBolha(){
-        System.out.println("Soltou uma bolha");
+        System.out.println("Soltoando uma bolha");
 
     }
 
+    public String getCorEscama(){
+        return this.corEscama;
+    }
+    public void setCorEscama(String escama){
+        this.corEscama = escama;
+    }
 }
