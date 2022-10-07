@@ -1,6 +1,6 @@
 package Aula12;
 
-public class Mamifero extends Animal {
+public class Mamifero extends Animal{
 
     private String corPelo;
 

@@ -8,11 +8,7 @@ public abstract class Animal {
 
     // Métodos de animal
     public abstract void locomover();
-
-
     public abstract void alimentar();
-
-
     public abstract void emitirSom();
 
 
