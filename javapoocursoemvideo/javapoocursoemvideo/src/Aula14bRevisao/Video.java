@@ -58,17 +58,17 @@ public class Video implements AcoesVideo{
     // Métodos implementados da inteface AcoesVideo
     @Override
     public void play() {
-
+        this.reproduzindo = true;
     }
 
     @Override
     public void pause() {
-
+        this.reproduzindo = false;
     }
 
     @Override
     public void like() {
-
+        this.curtidas++;
     }
 
     @Override // Sobreposição, eu estou sobrepondo um método, isso se chama Polimofirmo de sobreposição

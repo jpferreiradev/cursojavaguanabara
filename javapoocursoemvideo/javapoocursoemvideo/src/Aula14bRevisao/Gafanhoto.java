@@ -34,4 +34,11 @@ public class Gafanhoto extends Pessoa{
     public void ganharExp() {
     }
 
+    @Override
+    public String toString() {
+        return "Gafanhoto{" +super.toString()+
+                "\nlogin='" + login + '\'' +
+                ", totalAssistido=" + totalAssistido +
+                '}';
+    }
 }
