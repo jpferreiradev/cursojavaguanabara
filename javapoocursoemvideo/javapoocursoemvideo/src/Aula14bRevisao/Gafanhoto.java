@@ -35,8 +35,8 @@ public class Gafanhoto extends Pessoa{
     }
 
     @Override
-    public String toString() {
-        return "Gafanhoto{" +super.toString()+
+    public String toString() { // Exemplo de como chamar os dados da classe Gafanhoto utilizando a superClasse
+        return "Gafanhoto{" + super.toString()+
                 "\nlogin='" + login + '\'' +
                 ", totalAssistido=" + totalAssistido +
                 '}';

@@ -71,7 +71,7 @@ public class Video implements AcoesVideo{
         this.curtidas++;
     }
 
-    @Override // Sobreposição, eu estou sobrepondo um método, isso se chama Polimofirmo de sobreposição
+    @Override // Sobreposição, eu estou sobrepondo um método, isso se chama Polimorfismo de sobreposição
     public String toString() {
         return "Video{" +
                 "titulo='" + titulo + '\'' +
